@@ -44,6 +44,6 @@ var Player = function() {
 
 var jukebox = new Player();
 
-player.addSong(new Song('/Users/labutler/Desktop/MusicProject/songs/washed-out-entrance.m4a', 'Washed Out', 'Entrace'));
+jukebox.addSong(new Song('/Users/labutler/Desktop/MusicProject/songs/washed-out-entrance.m4a', 'Washed Out', 'Entrace'));
 
 
