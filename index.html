@@ -6,7 +6,27 @@
 </head>
 <body>
 <h1>Javascript Jukebox</h1>
-<audio src="songs/Brubecktakefive.m4a" controls autoplay></audio>
+<!-- <audio src="songs/Brubecktakefive.m4a" controls autoplay></audio> -->
+<div id="player">
+    <div id="display" class="hidden">
+        <div id="currentTime"></div><div>:</div><div id="duration"></div>
+    </div>
+    <div id="controlsContainer">
+        <ul id="controls">
+            <li id="prev">Previous</li>
+            <li id="play">Play</li>
+            <li id="stop" disabled>Stop</li>
+            <li id="next">Next</li>
+        </ul>
+    </div>
+    <div id="playlistContainer">
+        <ul id="playlist">
+        </ul>
+    </div>
+</div>
+
 <script type="text/javascript" src="js/script.js"></script>
 </body>
+
+
 </html>

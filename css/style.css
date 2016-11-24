@@ -1,0 +1,23 @@
+#display div {
+    float: left;
+}
+ul#controls {
+    display:block;
+}
+#controls {
+    display: block;
+}
+#controls li {
+    float: left;
+    margin: 1em;
+    cursor: pointer;
+}
+#playlistContainer {
+    clear: both;
+}
+#playlistContainer li {
+    cursor: pointer;
+}
+.hidden {
+    display: hidden;
+}
