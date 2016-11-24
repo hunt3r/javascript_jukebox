@@ -44,6 +44,15 @@ var Player = function() {
 
 var jukebox = new Player();
 
-player.addSong(new Song('/Users/labutler/Desktop/MusicProject/songs/washed-out-entrance.m4a', 'Washed Out', 'Entrace'));
+var song1 = new Song("songs/Brubecktakefive.m4a", "Brubeck", "Take Five");
+var song2 = new Song("songs/BSmywanderingdays.m4a", "Belle and Sebastian", "My Wandering Days Are Over");
+var song3 = new Song("songs/Foxygensanfrancisco.m4a", "Foxygen", "San Francisco");
+var song4 = new Song("songs/Guarldiginza.m4a", "Guaraldi", "Ginza");
+var song5 = new Song("songs/VUsundaymorning.m4a", "Velvet Underground", "Sunday Morning");
 
+jukebox.addSong(song1);
+jukebox.addSong(song2);
+jukebox.addSong(song3);
+jukebox.addSong(song4);
+jukebox.addSong(song5);
 
