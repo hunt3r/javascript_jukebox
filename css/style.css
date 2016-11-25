@@ -1,5 +1,25 @@
-#display div {
-    float: left;
+#display {
+    background: #0072B3;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 1em;
+    border-radius: 10px;
+}
+.active {
+    color: green;
+}
+#display marquee {
+    background: #004D7A;
+    border-radius: px;
+}
+
+button {
+    border-radius: 5px;
+    background: #D5F0FF;
+}
+
+#controlsContainer {
+    margin: 1em 0;
 }
 ul#controls {
     display:block;
@@ -8,15 +28,21 @@ ul#controls {
     display: block;
 }
 #controls li {
+    list-style: none;
     float: left;
     margin: 1em;
     cursor: pointer;
 }
 #playlistContainer {
     clear: both;
+    padding: .5em 0;
+    background: #ccc;
 }
 #playlistContainer li {
+    background: #efefef;
     cursor: pointer;
+    list-style: none;
+    padding: .25em;
 }
 .hidden {
     display: hidden;

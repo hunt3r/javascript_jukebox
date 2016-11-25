@@ -2,22 +2,30 @@
 <html>
 <head>
 	<title>Javascript Jukebox</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<h1>Javascript Jukebox</h1>
 <!-- <audio src="songs/Brubecktakefive.m4a" controls autoplay></audio> -->
-<div id="player">
-    <div id="display" class="hidden">
-        <div id="currentTime"></div><div>:</div><div id="duration"></div>
+<div id="player" class="container">
+    <h1>Javascript Jukebox</h1>
+    <div id="display" class="row">
+        <div id="time" class="two columns">
+            <div id="currentTime">0:00</div>
+        </div>
+        <div class="ten columns">
+            <marquee id="displayCurrentTrack"></marquee>
+        </div>
     </div>
-    <div id="controlsContainer">
-        <ul id="controls">
-            <li id="prev">Previous</li>
-            <li id="play">Play</li>
-            <li id="stop" disabled>Stop</li>
-            <li id="next">Next</li>
-        </ul>
+    <div id="controlsContainer" class="row">
+        <div class="twelve columns">
+            <button id="prev">Previous</button>
+            <button id="play">Play</button>
+            <button id="stop">Stop</button>
+            <button id="next">Next</button>
+        </div>
+
     </div>
     <div id="playlistContainer">
         <ul id="playlist">
